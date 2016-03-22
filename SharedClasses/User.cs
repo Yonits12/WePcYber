@@ -18,5 +18,12 @@ namespace SharedClasses
             this.Password = Password;
             this.ID = ID;
         }
+
+        public void passwordUpdate(string Password)
+        {
+            this.Password = Password;
+        }
+
+    
     }
 }

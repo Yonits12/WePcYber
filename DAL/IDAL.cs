@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using SharedClasses;
 namespace DAL
 {
-    interface IDAL
+    public interface IDAL
     {
         List<User> RetrivAllUsersData();
         User RetrivUserData(long ID);
